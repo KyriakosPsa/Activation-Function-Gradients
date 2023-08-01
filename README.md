@@ -1,6 +1,10 @@
 # Neural Network Activation Function Analysis
 
-This repository presents an analysis of various activation functions in the context of Multi Layer Perceptrons (MLPs), trained on the MNIST dataset of handwritten digits. It provides a study of the behavior of these functions regarding their gradients, and their impact on the learning process and model performance.
+This work is one of a series of three distinct repositories that collectively constitute the coursework focused on Neural Networks for the Data Science & Information Technologies masters course: Μ124 - Machine Learning at the National and Kapodistrian University of Athens (NKUA) during the Fall 2022 semester. The remaining repositories are:
+- [Neural Network Adversarial Examples](https://github.com/KyriakosPsa/Neural-Networks-Adversarial-Examples)
+- [Facial Expression Recognition (FER)](https://github.com/mdarm/machine-learning-coursework/blob/main/notebooks/ml_2_ex_3.ipynb)
+
+This specific repository presents an analysis of various activation functions in the context of Multi-Layer Perceptrons (MLPs), trained on the MNIST dataset of handwritten digits. It provides a study of the behavior of these functions regarding their gradients, and their impact on the learning process and model performance.
 
 # Overview
 
