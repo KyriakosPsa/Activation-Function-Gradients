@@ -2,10 +2,6 @@
 
 This repository presents an analysis of various activation functions in the context of Multi Layer Perceptrons (MLPs), trained on the MNIST dataset of handwritten digits. It provides a study of the behavior of these functions regarding their gradients, and their impact on the learning process and model performance.
 
-# Notation
-
-In a neural network with $(R)$ layers and a set of $\mu$ patterns, the output of node $i$ in the $(r)$-th hidden layer is denoted as $y^{(r)}_{i\mu}$. This output is calculated by taking the sum of the products of the weights connecting the previous layer nodes to the current node, with the output of the previous layer nodes denoted as $v^{(r)}_{i\mu}=\sum w^{(r)}_{ij}y^{(r-1)}_{j\mu}$ The result of this sum is passed as an argument into an activation function $f$. Thus the output of node $i$ in layer $r$ for pattern $\mu$ is: $y^{(r)}_{i\mu}=f(v^{(r)}_{i\mu})$ $w^{(r)}_{ij}$ denotes the weight connecting node $j$ in layer $(r-1)$ to node $(i)$ in layer $(r)$, the bias has been incorporated into the weights vector.
-
 # Overview
 
 The following tasks have been performed in the included notebook:
@@ -15,9 +11,6 @@ The following tasks have been performed in the included notebook:
 <p align="center">
   <b>ReLU:</b>
 </p>
-
-$$f(v^{(r)}_{i\mu}) = \begin{cases} 0 & \text{if } v^{(r)}_{i\mu} < 0 \\ v^{(r)}_{i\mu} & \text{if } v^{(r)}_{i\mu} > 0 \end{cases}$$
-
 <p align="center">
   <img src="./outputs/relu.png" alt="Alternate text for image"/>
 </p>
@@ -25,9 +18,6 @@ $$f(v^{(r)}_{i\mu}) = \begin{cases} 0 & \text{if } v^{(r)}_{i\mu} < 0 \\ v^{(r)}
 <p align="center">
   <b>Tanh:</b>
 </p>
-
-$$f(v^{(r)}_{i\mu})=\frac{e^{v^{(r)}_{i\mu}} -e^{-v^{(r)}_{i\mu}}}{e^{v^{(r)}_{i\mu}}+e^{-v^{(r)}_{i\mu}}}$$
-
 <p align="center">
   <img src="./outputs/tanh.png" alt="Alternate text for image"/>
 </p>
@@ -35,9 +25,6 @@ $$f(v^{(r)}_{i\mu})=\frac{e^{v^{(r)}_{i\mu}} -e^{-v^{(r)}_{i\mu}}}{e^{v^{(r)}_{i
 <p align="center">
   <b>Sigmoid:</b>
 </p>
-
-$$f(v^{(r)}_{i\mu}) = \frac{1}{1 + e^{-v^{(r)}_{i\mu}}}$$
-
 <p align="center">
   <img src="./outputs/sigmoid.png" alt="Alternate text for image"/>
 </p>
