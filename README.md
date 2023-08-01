@@ -1,5 +1,3 @@
-This work is one of a series of three distinct repositories that collectively constitute the coursework focused on Neural Networks for the Μ124 - Machine Learning course at the National and Kapodistrian University of Athens (NKUA) during the Fall 2022 semester. The other two repos deal with [Adversarial Neural Networks (ANN)](https://github.com/KyriakosPsa/Neural-Networks-Adversarial-Examples) and [Emotion-recognition using a Convolutional Neural Network (CNN)](https://github.com/mdarm/machine-learning-coursework).
-
 # Neural Network Activation Function Analysis
 
 This work is one of a series of three distinct repositories that collectively constitute the coursework focused on Neural Networks for the Data Science & Information Technologies masters course: Μ124 - Machine Learning at the National and Kapodistrian University of Athens (NKUA) during the Fall 2022 semester. The remaining repositories are:
